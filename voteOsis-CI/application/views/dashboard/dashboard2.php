@@ -41,56 +41,12 @@ $this->load->view('dashboard/template/sidebar');
 
   <div class="box-body pad table-responsive">
                 <p>Data Hasil dari akun yang sudah melakukan Voting</p>
-                <table class="table table-bordered text-center">
-                  <tr>
-                    <th colspan="6">Perubahan dalam data</th>
-                  </tr>
-                  <tr>
-                    <td>
-                      <button type="button" class="btn btn-block btn-danger btn-flat">Truncate total voting</button>
-                    </td>
-                    <td>
-                      <button type="button" class="btn btn-block btn-danger btn-flat">Truncate table log</button>
-                    </td>
-                    <td>
-                      <button type="button" class="btn btn-block btn-danger btn-flat">Tambah siswa</button>
-                    </td>
-                    <td>
-                      <button type="button" class="btn btn-block btn-danger btn-flat">Hapus siswa *</button>
-                    </td>
-                    <td>
-                      <button type="button" class="btn btn-block btn-danger btn-flat disabled">Ubah hasil voting</button>
-                    </td>
-                    <td>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <button type="button" class="btn btn-block btn-primary btn-flat">Analyze Table</button>
-                    </td>
-                    <td>
-                      <button type="button" class="btn btn-block btn-primary btn-flat">Check table</button>
-                    </td>
-                    <td>
-                      <button type="button" class="btn btn-block btn-primary btn-flat">Cheksum table</button>
-                    </td>
-                    <td>
-                      <button type="button" class="btn btn-block btn-primary btn-flat">Defgrament table</button>
-                    </td>
-                    <td>
-                      <button type="button" class="btn btn-block btn-primary btn-flat">Optimize table</button>
-                    </td>
-                  </tr>
-                </table>
-              </div>
-
-
 
 <div class="row">
   <div class="col-xs-12">
     <div class="box">
       <div class="box-header">
-        <h3 class="box-title">Hover Data Table</h3>
+        <h3 class="box-title">Data Table</h3>
       </div>
       <!-- /.box-header -->
       <div class="box-body">
@@ -103,7 +59,7 @@ $this->load->view('dashboard/template/sidebar');
             <th>Kelas</th>
             <th>Jurusan</th>
             <th>Status</th>
-            <?php if ($this->session->userdata('user_admin')==="@joviandromarbun"): ?>
+            <?php if ($this->session->userdata('user_admin')==="@Kel7"): ?>
             <th>Pilihan</th>
           <?php endif; ?>
           </tr>
@@ -125,7 +81,7 @@ $this->load->view('dashboard/template/sidebar');
             <td><?php echo $data[1]; ?></td>
             <td><?php echo $data[2]; ?></td>
             <td><?php echo $e; ?></td>
-            <?php if ($this->session->userdata('user_admin')==="@joviandromarbun"): ?>
+            <?php if ($this->session->userdata('user_admin')==="@Kel7"): ?>
             <td><?php echo $k->add_log; ?></td>
           <?php endif; ?>
           <?php endforeach; ?>

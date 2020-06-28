@@ -34,7 +34,7 @@ class Logout extends CI_Controller{
           function logout_admin(){
 
 
-            redirect('dashboard');
+            redirect('login/login_admin');
           }
 
             // * Halaman 404, tambahkan di routes jika mau, w,w,
