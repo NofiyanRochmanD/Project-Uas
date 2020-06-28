@@ -92,13 +92,13 @@ $(document).ready(function(){
                                 </tr>
                                 <tr>
                                   <td>
-                                    <button id="wakil1" type="button" class="btn btn-block btn-danger btn-flat">Ketua 1</button>
+                                    <button id="wakil1" type="button" class="btn btn-block btn-danger btn-flat">Wakil 1</button>
                                   </td>
                                   <td>
-                                    <button id="wakil2" type="button" class="btn btn-block btn-danger btn-flat">Ketua 2</button>
+                                    <button id="wakil2" type="button" class="btn btn-block btn-danger btn-flat">Wakil 2</button>
                                   </td>
                                   <td>
-                                    <button id="wakil3"type="button" class="btn btn-block btn-danger btn-flat">Ketua 3</button>
+                                    <button id="wakil3"type="button" class="btn btn-block btn-danger btn-flat">Wakil 3</button>
                                   </td>
                                   <td>
                                   </td>
